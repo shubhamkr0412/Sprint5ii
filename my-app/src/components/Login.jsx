@@ -56,12 +56,7 @@ export const Login = () => {
       </p>
 
       <p>
-        Fake Login Details:
-        <br></br>
-        Email: user_saurabh@gmail.com
-        <br></br>
-        Password: user_saurabh@123
-      </p>
+     
     </div>
   );
 };
