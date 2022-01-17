@@ -52,13 +52,7 @@ export const AdminLogin = () => {
         <Link to="/login">Are you a User? click here.</Link>
       </p>
 
-      <p>
-        Fake Login Details:
-        <br></br>
-        Email: admin_saurabh@gmail.com
-        <br></br>
-        Password: admin_saurabh@123
-      </p>
+    
     </div>
   );
 };
