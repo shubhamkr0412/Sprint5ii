@@ -31,7 +31,7 @@ export const Homepage = () => {
                 dispatch(applyJob(e));
                 dispatch(
                   whoApplied(
-                    `user_saurabh@gmail.com applied ${e.company} for ${e.title} position.`
+                    `user_shubham@gmail.com applied ${e.company} for ${e.title} position.`
                   )
                 );
               }}
