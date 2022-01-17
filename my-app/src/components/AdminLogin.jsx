@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { Link, Navigate } from "react-router-dom";
-import { adminLoginSuccess, loginError } from "../store/auth/actions";
 
 export const AdminLogin = () => {
   const loginData = useRef({ email: "", password: "" });
