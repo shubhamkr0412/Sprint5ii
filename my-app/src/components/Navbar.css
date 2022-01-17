@@ -1,0 +1,16 @@
+.mainNavbar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-around;
+  background-color: #1a374d;
+  height: 60px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+.link {
+  color: #b1d0e0;
+  text-decoration: none;
+  cursor: pointer;
+}

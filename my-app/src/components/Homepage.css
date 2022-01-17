@@ -1,0 +1,35 @@
+.jobDiv {
+  background-color: #406882;
+  padding: 20px;
+  border-radius: 10px;
+  color: #b1d0e0;
+}
+
+.jobDiv h4 {
+  margin-top: 0px;
+}
+
+.mainJobDiv {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 32% 32% 32%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.applyJobButton {
+  background-color: #6998ab;
+  border: none;
+  font-size: 18px;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputDiv {
+  text-align: center;
+}
+.inputTitle {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
