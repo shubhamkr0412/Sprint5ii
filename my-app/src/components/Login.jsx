@@ -37,8 +37,8 @@ export const Login = () => {
       <button
         onClick={() => {
           if (
-            loginData.current.email === "user_saurabh@gmail.com" &&
-            loginData.current.password === "user_saurabh@123"
+            loginData.current.email === "user_shubham@gmail.com" &&
+            loginData.current.password === "user_shubham@"
           ) {
             dispatch(loginSuccess(true));
           } else {
