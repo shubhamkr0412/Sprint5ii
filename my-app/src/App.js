@@ -20,14 +20,7 @@ function App() {
         ></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/admin/login" element={<AdminLogin></AdminLogin>}></Route>
-        <Route
-          path="/dashboard"
-          element={
-            <PrivateRoute>
-              <Dashboard></Dashboard>
-            </PrivateRoute>
-          }
-        ></Route>
+        <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
       </Routes>
     </div>
   );
